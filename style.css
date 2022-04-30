@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 40%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template: 
+    "a a"
+    "b b"
+    "c d"
+    "e f"
+    ;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    grid-area: a;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    grid-area: b;
+}
+
+#temp-lab {
+    grid-area: c;
+}
+
+#temp {
+    grid-area: d;
+}
+
+#hum-lab {
+    grid-area: e;
+}
+
+#hum {
+    grid-area: f;
+}
