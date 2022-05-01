@@ -1,3 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -6,9 +14,10 @@
 
 .main {
     width: 40%;
+    height: 400px;
     padding: 50px;
     border-radius: 20px;
-    background-color: blueviolet;
+    background-image: linear-gradient(rgb(4, 4, 153), rgb(202, 24, 202));
     display: grid;
     grid-template: 
     "a a"
@@ -22,6 +31,22 @@
     display: flex;
     justify-content: center;
     grid-area: a;
+}
+
+#search-bar {
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+#submit-btn {
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(59, 59, 59);
 }
 
 #name{
