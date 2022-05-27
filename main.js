@@ -6,7 +6,7 @@ let wind_tag = document.getElementById('wind')
 
 function getWeather(place) {
 fetch(
-  `https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=5f900933497012032744a2cbfc9d37c8`
+  `https://api.openweathermap.org/data/2.5/weather?q=${place}&appid={APIKEYHERE}`
 )
   .then(function (response) {
     return response.json();
